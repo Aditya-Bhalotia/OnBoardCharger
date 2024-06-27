@@ -17,7 +17,7 @@ The project involves designing a universal on-board charger capable of charging 
      | Variables            | Value                               | Range                          |
      |----------------------|-------------------------------------|--------------------------------|
      | Vrms                 | 230V                                | 85-265V                        |
-     | frequency            | 50/60Hz                             |                                |
+     | frequency            | 50/60Hz                             | 45-65Hz                        |
      | Vdc                  | 400V (nominal) at 230V rms input    |                                |
      | $\Delta i_{L}$       | 25% of peak current                 |                                |
      | $\Delta V_{dc2\omega}$ | 20V                               | $2\omega$ frequency ripple     |
@@ -34,7 +34,8 @@ The project involves designing a universal on-board charger capable of charging 
      | Variables         | Value                     | Range                          |
      |-------------------|---------------------------|--------------------------------|
      | Vdc               | 400V                      |                                |
-     | Vout              | 296V (nominal)            |                                |
+     | Vout              | 296V (nominal)            | 200V-336V                      |
+     | Pout              | 3.6kW (max.)              | 360-3600W                      |
      | $\Delta i_{L}$    | 75% of average current    |                                |
      | $\Delta V_{dcsw}$ | 2V                        | Switching frequency ripple     |
      | $f_{sw}$          | 100 kHz                   |                                |
