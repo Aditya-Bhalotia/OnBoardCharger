@@ -18,15 +18,16 @@ The charger should switch between Constant current mode (when charged from 20% S
 2. Draw sinusoidal current from the AC supply i.e., power factor should be close to 1.
 
 - **Specification** :
-| Variables     	| Value                                     | Range 				|
-|-----------------------|-------------------------------------------|-----------------------------------|
-| Vrms	     		| 230V                			    |	85-265V				|
-| frequency  		|50/60Hz				    |					|
-| Vdc			| 400V (nominal) at 230V rms input	    |					|
-| $\Delta i_{L}$	| 25% of peak current		            |					|
-|$\Dleta V_{dc2\omega}$	| 20V 				    	    |	$2\omega$ frequency ripple	|
-|Power Factor  		| $>$ 0.99				    |					|
-| $f_{sw} 		|	50 kHz			            |					|
+| Variables            | Value                               | Range                          |
+|----------------------|-------------------------------------|--------------------------------|
+| Vrms                 | 230V                                | 85-265V                        |
+| frequency            | 50/60Hz                             |                                |
+| Vdc                  | 400V (nominal) at 230V rms input    |                                |
+| $\Delta i_{L}$       | 25% of peak current                 |                                |
+| $\Delta V_{dc2\omega}$ | 20V                               | $2\omega$ frequency ripple     |
+| Power Factor         | $>$ 0.99                            |                                |
+| $f_{sw}$             | 50 kHz                              |                                |
+
 
 
 
@@ -36,13 +37,14 @@ The charger should switch between Constant current mode (when charged from 20% S
 1. Convert DC bus voltage level to lower voltage level which can be used to charge batteries.
 2. Maintains required current or voltage depending on the charging mode of the battery at the output.
 - **Specification** :
-| Variables     | Value                                     | Range 		|
-|------------|----------------------------------------------|--------------------|
-| Vdc	     | 400V                			    |		|
-| Vout	     | 296V (nominal) 	    |			|
-| $\Delta i_{L}$ | 75% of average current		             |			|
-|$\Dleta V_{dcsw}$| 2V 				    |	Switching frequency ripple|
-| $f_{sw} 	|	100 kHz					|		|
+| Variables         | Value                     | Range                          |
+|-------------------|---------------------------|--------------------------------|
+| Vdc               | 400V                      |                                |
+| Vout              | 296V (nominal)            |                                |
+| $\Delta i_{L}$    | 75% of average current    |                                |
+| $\Delta V_{dcsw}$ | 2V                        | Switching frequency ripple     |
+| $f_{sw}$          | 100 kHz                   |                                |
+
 
 ### Current controller and voltage controllers
 
