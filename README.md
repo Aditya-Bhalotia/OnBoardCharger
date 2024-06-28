@@ -7,7 +7,7 @@ The project involves designing a universal on-board charger capable of charging 
 ## Various Components
 
 1. **Totem Pole Power Factor Correction (PFC) Converter**
-   - **Input:**
+   - **Input:** AC supply with
      - Vrms: 85V to 265V
      - Frequency: 45Hz to 65Hz
    - **Function:**
@@ -44,5 +44,6 @@ The project involves designing a universal on-board charger capable of charging 
    - Appropriate plant modeling ensures proper controller design.
    - All controllers are PI controllers to maintain zero steady-state error.
    - Anti-windup technique implemented for faster transient settling and to prevent overshoots.
+   - Designed appropriate notch filter to avoid $2\omega$ component in the input AC current of totem pole converter.
    - PSFB controller design assumes Battery Management System (BMS) provides State of Charge (SoC) information.
 
